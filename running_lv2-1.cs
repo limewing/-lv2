@@ -6,7 +6,4 @@ if (num != 0)
     for (int i = 1; i <= num; i++)
         fac *= i;
 
-Console.Write("Factorial of ");
-Console.Write(num);
-Console.Write(" is ");
-Console.Write(fac);
+Console.Write($"Factorial of {num} is {fac}");
